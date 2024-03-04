@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    border:2px solid black;
+    width:150px;
+    height:150px;
+}
+
+.cell{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    cursor: pointer;
+    border:1px solid black;
+}
